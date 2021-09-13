@@ -24,19 +24,71 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col">
-
+                <div class="col-sm-2 mt-5">
+                    <a class="btn btn-social-icon btn-facebook"
+                        href="https://www.facebook.com/Rainbowreflectionsbyrita/"><i class="fa fa-facebook"></i></a>
+                </div>
+                <div class="col-sm-1 mt-5">
+                    <a class="btn btn-social-icon btn-instagram"
+                        href="https://www.instagram.com/rainbowreflectionsbyrita/?hl=en"><i
+                            class="fa fa-instagram"></i></a>
+                </div>
+                <div class="col-sm-6">
+                    <img src="img/main-image.png" alt="Rainbow Reflections By Rita Logo" id="mainImg">
+                </div>
+                <div class="col-sm-1 mt-5 ml-4">
+                    <a role="button" data-toggle="modal" data-target="#loginModal"><i class="fa fa-sign-in"></i>
+                        Login</a>
+                </div>
+                <div class="col-sm-1 mt-5 ml-3">
+                    <a role="button" data-toggle="modal" data-target="#loginModal"><i class="fa fa-shopping-cart"></i>
+                        Cart</a>
                 </div>
             </div>
         </div>
     </header>
 
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <lottie-player src="https://assets10.lottiefiles.com/private_files/lf30_ohapmypv.json"
+                    background="transparent" speed="0.5" style="width: 75px; height: 75px;" loop autoplay>
+                </lottie-player>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#rainbowNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="rainbowNavbar">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item active"><a class="nav-link active" href="#"><i class="fa fa-home fa-lg"></i>
+                            Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i>
+                            About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class=""></i>
+                            Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i>
+                            Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class=""></i>
+                            Shop</a></li>
+                    <li class="nav-item"> <button class="btn btn-primary btn-lg text-nowrap" id="bookReading">Book A
+                            Reading</button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <main>
         <div class="container">
             <div class="row">
-                <div class="col">
-
+                <div class="col text-center mt-5">
+                    <h1>Explore Your Inner Self.</h1>
                 </div>
+            </div>
+            <!--Carousel-->
+            <div class="row">
+
             </div>
         </div>
     </main>
@@ -54,6 +106,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="js/script.js"></script>
 </body>
 
