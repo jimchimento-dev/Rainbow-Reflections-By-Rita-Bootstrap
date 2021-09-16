@@ -1,14 +1,73 @@
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
 body {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     max-width: 100%;
-    overflow-x: hidden;
+    overflow: auto;
     background-color: #90E0EF;
 }
 
 #mainImg {
  width: 571px;
  height: 227px;
+}
+
+.socialHeader {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media (max-width: 768px) {
+    .socialHeader {
+        display: none;
+    }
+}
+
+.headerButtons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    .headerButtons {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .headerButtons {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0px;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .headerButton {
+       padding: 10px 20px;
+        
+    }
+}
+
+.headerButton {
+    color: white;
+}
+
+.headerButton:hover {
+    text-decoration: none;
+    color: #03045e;
+}
+
+.butterflyModal {
+    width: 30px;
+    height: 30px;
 }
 
 #navImg {
@@ -20,6 +79,81 @@ height: 49px;
     background-color: #48CAE4;
 }
 
+.navbar-nav.nav-fill.w-100 li a {
+    color: white;
+}
+
+.navbar-nav.nav-fill.w-100 li a:hover {
+    color: #03045e;
+}
+
+h1, h2 {
+    color: #023e8a;
+}
+
+.media-body {
+    color: white;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100; 
+}
+
 li {
     font-size: 18px;
+}
+
+.carousel {
+    border: 3px solid white; 
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+
+.d-block {
+    width: 1100px;
+    height: 700px;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px; 
+}
+
+.rowImg {
+    border-radius: 50%;
+}
+
+iframe {
+    border: 3px solid white;
+}
+
+#footerLinks {
+    color: white;
+}
+
+#test {
+    color: #0077B6;
+}
+
+.footerColor {
+    color: white;
+}
+
+ul.footerColor a {
+    color: #023e8a;
+}
+
+.hours {
+    color: #023e8a;
+}
+
+.contactBtn {
+    color: #023e8a;
 }
