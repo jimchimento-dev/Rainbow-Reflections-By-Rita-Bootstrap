@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Rainbow Reflections By Rita</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mt-5 socialHeader">
+                    <a class="btn btn-social-icon btn-facebook"
+                        href="https://www.facebook.com/Rainbowreflectionsbyrita/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-instagram"
+                        href="https://www.instagram.com/rainbowreflectionsbyrita/?hl=en"><i
+                            class="fa fa-instagram"></i></a>
+                </div>
+                <div class="col-md-6 mr-4 d-flex justify-content-center">
+                    <a href="index.html"><img class="img-fluid" src="img/main-image.png"
+                            alt="Rainbow Reflections By Rita Logo" id="mainImg"></a>
+                </div>
+                <div class="col-md-2 headerButtons">
+                    <a class="headerButton" role="button" data-toggle="modal" data-target="#loginModal"><i
+                            class="fa fa-sign-in"></i>
+                        Login</a>
+                    <a class="headerButton" role="button" data-toggle="modal" data-target="#shoppingCart"><i
+                            class="fa fa-shopping-cart"></i>
+                        Cart</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Login Modal-->
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-info text-white">
+                    <h3 class="modal-title">Login</h3>
+                    <img src="img/Butterfly_nav_image-removebg-preview.png" class="butterflyModal"
+                        alt="Butterfly Modal Image">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <input type="email" class="form-control form-control-sm" id="loginEmail"
+                                        placeholder="Enter email">
+                                    <label class="sr-only" for="loginEmail">Email
+                                        Address</label>
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginPassword">Password</label>
+                                    <input type="password" class="form-control form-control-sm" id="loginPassword"
+                                        placeholder="Password">
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label">Remember me</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto"
+                                    data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary btn-sm ml-1">Sign In</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Shopping Cart Modal-->
+
+    <div class="modal fade" id="shoppingCart" tabindex="-1" aria-labelledby="shopCartModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-info text-white">
+                    <h5 class="modal-title" id="shopCartModal">Shopping Cart</h5>
+                    <img src="img/Butterfly_nav_image-removebg-preview.png" class="butterflyModal"
+                        alt="Butterfly Modal Image">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Your cart is currently empty.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Navbar-->
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <lottie-player src="https://assets10.lottiefiles.com/private_files/lf30_ohapmypv.json"
+                    background="transparent" speed="0.5" style="width: 75px; height: 75px;" loop autoplay>
+                </lottie-player>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#rainbowNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="rainbowNavbar">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item"><a class="nav-link active" href="index.html"><i class="fa fa-home fa-lg"></i>
+                            Home</a>
+                    </li>
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i>
+                            About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html"><i class="fa fa-list fa-lg"></i>
+                            Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html"><i class="fa fa-calendar fa-lg"></i>
+                            Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i
+                                class="fa fa-address-card fa-lg"></i>
+                            Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="shop.html"><i class="fa fa-shopping-bag"></i>
+                            Shop</a></li>
+                    <li class="nav-item"><a class="btn btn-primary btn-lg text-nowrap" data-toggle="modal"
+                            data-target="#bookReading">Book A
+                            Reading</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Book A Reading Modal-->
+
+    <div id="bookReading" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-info text-white">
+                    <h3 class="modal-title">Book A Reading</h3>
+                    <img src="img/Butterfly_nav_image-removebg-preview.png" class="butterflyModal"
+                        alt="Butterfly Modal Image">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="row form-group">
+                                <label class="col-sm-6 col-form-label" for="sessionLength">Length of Session</label>
+                                <div class="col">
+                                    <select class="form-control" name="sessionLength" id="sessionLength">
+                                        <option value="">Select</option>
+                                        <option value="1">30 Minutes</option>
+                                        <option value="2">45 Minutes</option>
+                                        <option value="3">1 Hour</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <label class="col-sm-6 col-form-label" for="date">Date</label>
+                                <div class="col">
+                                    <input class="form-control" type="date" name="date" id="date" placeholder="date">
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <label class="col-sm-6 col-form-label">Service Type</label>
+                                <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-outline-primary active text-center">
+                                        <input type="radio" name="serviceType" id="serviceReiki" value="reiki"
+                                            autocomplete="off">
+                                        Metaphysical Reading
+                                    </label>
+                                    <label class="btn btn-outline-info">
+                                        <input type="radio" name="serviceType" id="serviceReading" value="reading"
+                                            autocomplete="off">
+                                        Reiki Healing
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col">
+                                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                                    <button class="btn btn-primary" type="submit">Check Availability</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center mt-4">
+
+        </main>
+
+        <footer>
+            <div class="container site-footer">
+                <div class="row mt-5">
+                    <div class="footerColor col-sm-2 text-center mt-3">
+                        <h4>Links</h4>
+                        <ul class="footerColor list-unstyled">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerColor col-sm-3 text-center mt-3">
+                        <h4>Hours</h4>
+                        <ul class="hours list-unstyled">
+                            <li><u>Monday - Thursday</u>: Appointment Only</li>
+                            <li><u>Friday</u>: 12PM - 4PM</li>
+                            <li><u>Saturday</u>: 11AM - 3PM</li>
+                            <li><u>Sunday</u>: 11AM - 3PM</li>
+                        </ul>
+                    </div>
+                    <div class="footerColor col-sm-3 text-center mt-3">
+                        <h4>Social</h4>
+                        <a class="btn btn-social-icon btn-facebook"
+                            href="https://www.facebook.com/Rainbowreflectionsbyrita/"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-instagram"
+                            href="https://www.instagram.com/rainbowreflectionsbyrita/?hl=en"><i
+                                class="fa fa-instagram"></i></a>
+                    </div>
+                    <div class="footerColor col-sm-3 text-center mt-3">
+                        <h4>Contact</h4>
+                        <a role="button" class="contactBtn btn btn-link" href="tel:+19733003377"><i
+                                class="fa fa-phone"></i>
+                            1-973-300-3377<br></a>
+                        <a role="button" class="contactBtn btn btn-link text-nowrap"
+                            href="mailto:rainbowreflectionsbyrita@gmail.com"><i class="fa fa-envelope-o"></i>
+                            rainbowreflectionsbyrita@gmail.com</a>
+                    </div>
+                    <div class="row mx-auto">
+                        <div class="col hours">
+                            Copyright © 2021 Rainbow Reflections by Rita - All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <script src="js/script.js"></script>
+</body>
+
+</html>
