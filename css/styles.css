@@ -95,6 +95,16 @@ h1, h2 {
     color: white;
 }
 
+.breadcrumb {
+    background-color: #90E0EF;
+}
+
+.breadcrumb-item {
+    color: inherit;
+    text-decoration: none;
+}
+
+
 #carouselButton {
     position: absolute;
     right: 0;
@@ -130,6 +140,10 @@ li {
     border-radius: 50%;
 }
 
+.newsletter {
+    color: #023e8a;
+}
+
 iframe {
     border: 3px solid white;
 }
@@ -156,4 +170,12 @@ ul.footerColor a {
 
 .contactBtn {
     color: #023e8a;
+}
+
+.form {
+    background-color: #48CAE4;
+}
+
+label {
+    color: #03045e;
 }
