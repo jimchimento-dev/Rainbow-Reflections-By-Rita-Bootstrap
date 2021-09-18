@@ -36,12 +36,10 @@
                             alt="Rainbow Reflections By Rita Logo" id="mainImg"></a>
                 </div>
                 <div class="col-md-2 headerButtons">
-                    <a class="headerButton" role="button" data-toggle="modal" data-target="#loginModal"><i
-                            class="fa fa-sign-in"></i>
-                        Login</a>
-                    <a class="headerButton" role="button" data-toggle="modal" data-target="#shoppingCart"><i
-                            class="fa fa-shopping-cart"></i>
-                        Cart</a>
+                    <a class="headerButton" role="button" data-toggle="modal" data-target="#loginModal">
+                        Login <i class="fa fa-sign-in"></i></a>
+                    <a class="headerButton" role="button" data-toggle="modal" data-target="#shoppingCart">
+                        Cart <i class="fa fa-shopping-cart"></i></a>
                 </div>
             </div>
         </div>
@@ -164,6 +162,21 @@
                     <div class="container-fluid">
                         <form>
                             <div class="row form-group">
+                                <label class="col-sm-6 col-form-label">Service Type</label>
+                                <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-outline-primary active text-center text-nowrap">
+                                        <input type="radio" name="serviceType" id="serviceReiki" value="reiki"
+                                            autocomplete="off">
+                                        Metaphysical Reading
+                                    </label>
+                                    <label class="btn btn-outline-info text-nowrap">
+                                        <input type="radio" name="serviceType" id="serviceReading" value="reading"
+                                            autocomplete="off">
+                                        Reiki Healing
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row form-group">
                                 <label class="col-sm-6 col-form-label" for="sessionLength">Length of Session</label>
                                 <div class="col">
                                     <select class="form-control" name="sessionLength" id="sessionLength">
@@ -178,21 +191,6 @@
                                 <label class="col-sm-6 col-form-label" for="date">Date</label>
                                 <div class="col">
                                     <input class="form-control" type="date" name="date" id="date" placeholder="date">
-                                </div>
-                            </div>
-                            <div class="row form-group">
-                                <label class="col-sm-6 col-form-label">Service Type</label>
-                                <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
-                                    <label class="btn btn-outline-primary active text-center">
-                                        <input type="radio" name="serviceType" id="serviceReiki" value="reiki"
-                                            autocomplete="off">
-                                        Metaphysical Reading
-                                    </label>
-                                    <label class="btn btn-outline-info">
-                                        <input type="radio" name="serviceType" id="serviceReading" value="reading"
-                                            autocomplete="off">
-                                        Reiki Healing
-                                    </label>
                                 </div>
                             </div>
                             <div class="row form-group">

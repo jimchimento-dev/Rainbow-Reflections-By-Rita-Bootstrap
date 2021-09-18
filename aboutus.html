@@ -36,12 +36,10 @@
                             alt="Rainbow Reflections By Rita Logo" id="mainImg"></a>
                 </div>
                 <div class="col-md-2 headerButtons">
-                    <a class="headerButton" role="button" data-toggle="modal" data-target="#loginModal"><i
-                            class="fa fa-sign-in"></i>
-                        Login</a>
-                    <a class="headerButton" role="button" data-toggle="modal" data-target="#shoppingCart"><i
-                            class="fa fa-shopping-cart"></i>
-                        Cart</a>
+                    <a class="headerButton" role="button" data-toggle="modal" data-target="#loginModal">
+                        Login <i class="fa fa-sign-in"></i></a>
+                    <a class="headerButton" role="button" data-toggle="modal" data-target="#shoppingCart">
+                        Cart <i class="fa fa-shopping-cart"></i></a>
                 </div>
             </div>
         </div>
@@ -164,6 +162,21 @@
                     <div class="container-fluid">
                         <form>
                             <div class="row form-group">
+                                <label class="col-sm-6 col-form-label">Service Type</label>
+                                <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-outline-primary active text-center text-nowrap">
+                                        <input type="radio" name="serviceType" id="serviceReiki" value="reiki"
+                                            autocomplete="off">
+                                        Metaphysical Reading
+                                    </label>
+                                    <label class="btn btn-outline-info text-nowrap">
+                                        <input type="radio" name="serviceType" id="serviceReading" value="reading"
+                                            autocomplete="off">
+                                        Reiki Healing
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row form-group">
                                 <label class="col-sm-6 col-form-label" for="sessionLength">Length of Session</label>
                                 <div class="col">
                                     <select class="form-control" name="sessionLength" id="sessionLength">
@@ -178,21 +191,6 @@
                                 <label class="col-sm-6 col-form-label" for="date">Date</label>
                                 <div class="col">
                                     <input class="form-control" type="date" name="date" id="date" placeholder="date">
-                                </div>
-                            </div>
-                            <div class="row form-group">
-                                <label class="col-sm-6 col-form-label">Service Type</label>
-                                <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
-                                    <label class="btn btn-outline-primary active text-center">
-                                        <input type="radio" name="serviceType" id="serviceReiki" value="reiki"
-                                            autocomplete="off">
-                                        Metaphysical Reading
-                                    </label>
-                                    <label class="btn btn-outline-info">
-                                        <input type="radio" name="serviceType" id="serviceReading" value="reading"
-                                            autocomplete="off">
-                                        Reiki Healing
-                                    </label>
                                 </div>
                             </div>
                             <div class="row form-group">
@@ -224,35 +222,34 @@
 
     <main>
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1 class="text-center">An Inspirational Gift Store with a Metaphysical Flair</h1>
-                </div>
-            </div>
             <div class="row mt-3">
                 <div class="col">
                     <img src="img/Rainbow Reflections Store Outside New (1).jpeg" class="img-fluid mx-auto"
                         id="outsideImg" alt="Rainbow Reflections Outside">
                 </div>
                 <div class="col">
-                    <h3 class="text-center">Our Mission</h3>
-                    <p class="text-center">Put a smile on the face of all of our customers. Lift the spirits of others
-                        and help them achieve a positive mindset. Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Quis quae ullam error tenetur accusamus ex deserunt consectetur odit eum debitis harum
-                        rerum labore aperiam, laudantium totam reiciendis ad itaque nostrum. Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Fugiat tempora, suscipit, officiis ab, repellendus distinctio eius
-                        repudiandae dolores dignissimos corrupti a quasi inventore omnis eligendi recusandae! Vel eum
-                        deserunt tempora.</p>
+                    <h3 class="text-center aboutUs">Our Mission</h3>
+                    <p class="text-center aboutUs"> We strive to put a smile on the face of all of our customers to help
+                        them
+                        achieve a positive mindset. By doing so, we hope to empower them to live life to their fullest
+                        potential. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, id ab quas modi
+                        minima vel tenetur explicabo, in nostrum totam quidem dignissimos, voluptatem earum commodi aut
+                        necessitatibus exercitationem vitae at!
+                        Quos, numquam nobis. Nobis in perferendis atque odit, sit vel totam laboriosam fuga magni
+                        accusamus velit rem aliquam labore voluptatibus, nulla asperiores at iste aut? Iure id
+                        repudiandae nulla distinctio!</p>
+                    <!-- <p>Our mission is to empower our customers with the philosophy of metaphysics
+                        and how they can take control of their life. By doing so,</p> -->
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <div class="card bg-light mt-5 p-2">
+                    <div class="card mt-5 p-2">
                         <blockquote class="blockquote card-body">
                             <p class="mb-0">"I believe we all journey through life with different goals and dreams;
                                 sometimes not even knowing why we are drawn to certain places or things. We are all
                                 individuals, but a part of something bigger."</p>
-                            <footer class="blockquote-footer mt-3">Rita Chimento,
+                            <footer class="blockquote-footer mt-3 quoteFooter">Rita Chimento,
                                 <cite title="Source Title">Rainbow Reflections By Rita</cite>
                             </footer>
                         </blockquote>
@@ -262,8 +259,8 @@
             <div class="row mt-4">
                 <div class="col">
                     <div class="card mt-4">
-                        <div class="card-header bg-light">
-                            <h3 class="text-center">Credentials and Certifications</h3>
+                        <div class="card-header">
+                            <h3 class="text-center aboutUs">Rita's Credentials and Certifications</h3>
                         </div>
                         <div class="card-body">
                             <ul class="list-unstyled">

@@ -36,12 +36,10 @@
                             alt="Rainbow Reflections By Rita Logo" id="mainImg"></a>
                 </div>
                 <div class="col-md-2 headerButtons">
-                    <a class="headerButton" role="button" data-toggle="modal" data-target="#loginModal"><i
-                            class="fa fa-sign-in"></i>
-                        Login</a>
-                    <a class="headerButton" role="button" data-toggle="modal" data-target="#shoppingCart"><i
-                            class="fa fa-shopping-cart"></i>
-                        Cart</a>
+                    <a class="headerButton" role="button" data-toggle="modal" data-target="#loginModal">
+                        Login <i class="fa fa-sign-in"></i></a>
+                    <a class="headerButton" role="button" data-toggle="modal" data-target="#shoppingCart">
+                        Cart <i class="fa fa-shopping-cart"></i></a>
                 </div>
             </div>
         </div>
@@ -164,6 +162,21 @@
                     <div class="container-fluid">
                         <form>
                             <div class="row form-group">
+                                <label class="col-sm-6 col-form-label">Service Type</label>
+                                <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-outline-primary active text-center text-nowrap">
+                                        <input type="radio" name="serviceType" id="serviceReiki" value="reiki"
+                                            autocomplete="off">
+                                        Metaphysical Reading
+                                    </label>
+                                    <label class="btn btn-outline-info text-nowrap">
+                                        <input type="radio" name="serviceType" id="serviceReading" value="reading"
+                                            autocomplete="off">
+                                        Reiki Healing
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row form-group">
                                 <label class="col-sm-6 col-form-label" for="sessionLength">Length of Session</label>
                                 <div class="col">
                                     <select class="form-control" name="sessionLength" id="sessionLength">
@@ -178,21 +191,6 @@
                                 <label class="col-sm-6 col-form-label" for="date">Date</label>
                                 <div class="col">
                                     <input class="form-control" type="date" name="date" id="date" placeholder="date">
-                                </div>
-                            </div>
-                            <div class="row form-group">
-                                <label class="col-sm-6 col-form-label">Service Type</label>
-                                <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
-                                    <label class="btn btn-outline-primary active text-center">
-                                        <input type="radio" name="serviceType" id="serviceReiki" value="reiki"
-                                            autocomplete="off">
-                                        Metaphysical Reading
-                                    </label>
-                                    <label class="btn btn-outline-info">
-                                        <input type="radio" name="serviceType" id="serviceReading" value="reading"
-                                            autocomplete="off">
-                                        Reiki Healing
-                                    </label>
                                 </div>
                             </div>
                             <div class="row form-group">
@@ -225,13 +223,126 @@
 
     <main>
         <div class="container">
-            <div class="row">
+            <div class="row row-content">
                 <div class="col text-center mt-4">
-
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/Raku Pottery Spirit Jar.JPEG" alt="Raku Pottery">
+                        <div class="card-body">
+                            <h5 class="card-title">Raku Pottery Spirit Jar - Large - $58.95</h5>
+                            <p class="card-text">Each handcrafted Raku gift is fired in an outdoor kiln. Red hot, it is
+                                pulled from the kiln and placed into a pit with wood shavings. The intense heat ignites
+                                a blaze giving this Raku piece unique flashes of color, making each truly a
+                                one-of-a-kind gift. </p>
+                            <hr>
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center mt-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/Shamans Dawn Liquid Sage.JPEG"
+                            alt="Shamans Dawn Liquid Sage">
+                        <div class="card-body">
+                            <h5 class="card-title">Shaman's Dawn Liquid Sage - $12.00</h5>
+                            <p class="card-text">Clear your home, work space, or auric field with this blend of white
+                                sage and other purifying herbs. Smudge without the smoke- great for work or public
+                                spaces. </p>
+                            <hr>
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center mt-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/Crystal Point Candle Clarity.JPEG"
+                            alt="Crystal Point Candle Clarity">
+                        <div class="card-body">
+                            <h5 class="card-title">Crystal Point Candle - Clarity with Pink Adventurine Stone - $13.95
+                            </h5>
+                            <p class="card-text">Light the candle and release your intention for clarity. Keep the Pink
+                                Adventurine crystal amulet as a necklace or charm that you can carry with you to extend
+                                your blessing.</p>
+                            <hr>
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-
+            <div class="row row-content">
+                <div class="col text-center mt-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/Amethyst Clusters.jpg" alt="Amethyst Clusters">
+                        <div class="card-body">
+                            <h5 class="card-title">Amethyst Clusters - $20.95 each</h5>
+                            <p class="card-text">Experience the powerful natural beauty of deep purple amethyst
+                                clusters. Cut from the volcanic basalt where the crystals were formed, no two clusters
+                                are alike.</p>
+                            <hr>
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center mt-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/Healing Angel Cards.JPEG" alt="Healing Angel Cards">
+                        <div class="card-body">
+                            <h5 class="card-title">Healing Angel Cards - $22.95</h5>
+                            <p class="card-text">This inspiring set by bestselling author Toni Carmine Salerno, allows
+                                you to get quick and clear answers from the Angels. Featuring 55 cards, the Healing
+                                Angel Cards allow you to gain daily inspiration and insight for all aspects of your
+                                life.</p>
+                            <hr>
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center mt-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/Amethyst Heart.JPEG" alt="Amethyst Heart">
+                        <div class="card-body">
+                            <h5 class="card-title">Amethyst Heart - $125.00</h5>
+                            <p class="card-text"> Natural amethyst heart-cluster specimen, rough, minded from mother
+                                earth,
+                                This gemstone's color ranges from a light lavender-pink to a deep purple, each is
+                                unique, it will vary in color , size and shape.A great idea for those who collect
+                                crystals.</p>
+                            <hr>
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-content">
+                <div class="col-4 text-center mt-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/Rider Waite Tarot Deck.JPEG" alt="Rider Waite Tarot Deck">
+                        <div class="card-body">
+                            <h5 class="card-title">Rider Waite Tarot Deck - $21.95</h5>
+                            <p class="card-text">Rider-Waite Tarot was named one of the Top Ten Tarot Decks of All Time
+                                by Aeclectic Tarot. The innovative Minor Arcana, and Pamela Colman Smith's ability to
+                                capture the subtleties of emotion and experience have made the Rider-Waite Tarot a model
+                                for the designs of many tarot packs.</p>
+                            <hr>
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center mt-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/Gemstone Chip Bottles.JPEG" alt="Gemstone Chip Bottles">
+                        <div class="card-body">
+                            <h5 class="card-title">Gemstone Chip Bottles - $1.00 each</h5>
+                            <p class="card-text">Precious and Semi-precious gemstones have been used since recorded
+                                history and probably before, for spiritual, emotional, and physical healing. Healers all
+                                over the world are using them. It is not to be used as a prescription, diagnosis or
+                                treatment. Made with love, light, and positive energy, cleansed before I ship out to
+                                you.</p>
+                            <hr>
+                            <a href="#" class="btn btn-primary">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </main>
 
     <footer>

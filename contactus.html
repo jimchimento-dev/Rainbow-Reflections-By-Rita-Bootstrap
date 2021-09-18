@@ -36,12 +36,10 @@
                             alt="Rainbow Reflections By Rita Logo" id="mainImg"></a>
                 </div>
                 <div class="col-md-2 headerButtons">
-                    <a class="headerButton" role="button" data-toggle="modal" data-target="#loginModal"><i
-                            class="fa fa-sign-in"></i>
-                        Login</a>
-                    <a class="headerButton" role="button" data-toggle="modal" data-target="#shoppingCart"><i
-                            class="fa fa-shopping-cart"></i>
-                        Cart</a>
+                    <a class="headerButton" role="button" data-toggle="modal" data-target="#loginModal">
+                        Login <i class="fa fa-sign-in"></i></a>
+                    <a class="headerButton" role="button" data-toggle="modal" data-target="#shoppingCart">
+                        Cart <i class="fa fa-shopping-cart"></i></a>
                 </div>
             </div>
         </div>
@@ -163,6 +161,21 @@
                     <div class="container-fluid">
                         <form>
                             <div class="row form-group">
+                                <label class="col-sm-6 col-form-label">Service Type</label>
+                                <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-outline-primary active text-center text-nowrap">
+                                        <input type="radio" name="serviceType" id="serviceReiki" value="reiki"
+                                            autocomplete="off">
+                                        Metaphysical Reading
+                                    </label>
+                                    <label class="btn btn-outline-info text-nowrap">
+                                        <input type="radio" name="serviceType" id="serviceReading" value="reading"
+                                            autocomplete="off">
+                                        Reiki Healing
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row form-group">
                                 <label class="col-sm-6 col-form-label" for="sessionLength">Length of Session</label>
                                 <div class="col">
                                     <select class="form-control" name="sessionLength" id="sessionLength">
@@ -177,21 +190,6 @@
                                 <label class="col-sm-6 col-form-label" for="date">Date</label>
                                 <div class="col">
                                     <input class="form-control" type="date" name="date" id="date" placeholder="date">
-                                </div>
-                            </div>
-                            <div class="row form-group">
-                                <label class="col-sm-6 col-form-label">Service Type</label>
-                                <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
-                                    <label class="btn btn-outline-primary active text-center">
-                                        <input type="radio" name="serviceType" id="serviceReiki" value="reiki"
-                                            autocomplete="off">
-                                        Metaphysical Reading
-                                    </label>
-                                    <label class="btn btn-outline-info">
-                                        <input type="radio" name="serviceType" id="serviceReading" value="reading"
-                                            autocomplete="off">
-                                        Reiki Healing
-                                    </label>
                                 </div>
                             </div>
                             <div class="row form-group">
@@ -224,27 +222,25 @@
 
     <main>
         <div class="container">
-            <div class="row row-content align-items-center">
-                <div class="col-sm-4">
-                    <h5>Our Address</h5>
-                    <address>
+            <div class="row row-content">
+                <div class="col text-center">
+                    <h4 class="ourAddress">Our Address</h4>
+                    <address class="ourAddress">
                         75 NJ-15 Building I-5<br />
                         Lafayette, NJ<br />
                         07848
                     </address>
-                </div>
-                <div class="col">
-                    <a role="button" class="btn btn-link contactBtn" href="tel:+19733003377"><i class="fa fa-phone"></i>
-                        1-973-300-3377<br></a>
-                    <a role="button" class="btn btn-link contactBtn" href="rainbowreflectionsbyrita@gmail.com"><i
-                            class="fa fa-envelope-o"></i>
-                        rainbowreflectionsbyrita@gmail.com</a>
+                    <div class="col">
+                        <a role="button" class="btn btn-link contactBtnPage align-self-center" href="tel:+19733003377"><i
+                                class="fa fa-phone"></i>
+                            1-973-300-3377<br></a>
+                    </div>
                 </div>
             </div>
 
             <div class="row row-content">
                 <div class="col d-flex justify-content-center align-items-center mb-3">
-                    <h2>Get in touch - send us a message!</h2>
+                    <h2>Or email us below!</h2>
                     <img class="ml-3" src="img/contact-image.png" alt="Contact Message">
                 </div>
                 <div class="col-md-10">
